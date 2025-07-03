@@ -13,10 +13,6 @@ Este é um projeto de **calculadora básica** desenvolvido com **React 19**, **V
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## 📸 Preview
-
-![Calculadora React](./public/preview.png)
-
 ## 📦 Instalação e uso local
 
 Clone o repositório e siga os passos abaixo:
