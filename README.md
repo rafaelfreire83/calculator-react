@@ -4,7 +4,7 @@ Este é um projeto de **calculadora básica** desenvolvido com **React 19**, **V
 
 ## 🔗 Acesse a demo online
 
-👉 [https://calculator-react.vercel.app](https://calculator-react.vercel.app)
+👉 [https://calculator-react-geyw.vercel.app/](https://calculator-react-geyw.vercel.app/)
 
 ## 🚀 Tecnologias utilizadas
 
