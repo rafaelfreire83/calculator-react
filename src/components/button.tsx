@@ -2,16 +2,15 @@ import { cn } from "../lib/utils";
 
 type ButtonProps = {
 	children: React.ReactNode;
-	variant?: "default" | "secondary" | "tertiary";
+	variant?: "default" | "secondary" | "tertiary" | undefined;
 	className?: string;
-	attr: React.ButtonHTMLAttributes<HTMLButtonElement>;
-};
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export default function Button({
 	children,
 	variant,
 	className,
-	...attr
+	...props
 }: ButtonProps) {
 	return (
 		<button
@@ -24,7 +23,7 @@ export default function Button({
 					"bg-orange-500": variant === "tertiary",
 				},
 			)}
-			{...attr}
+			{...props}
 		>
 			{children}
 		</button>
